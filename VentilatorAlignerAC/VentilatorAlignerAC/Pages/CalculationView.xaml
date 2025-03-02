@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:usercontrols="clr-namespace:VentilatorAlignerAC.UserControls"
+             x:Class="VentilatorAlignerAC.CalculationView"
+             x:Name="CalculationViewXName"
+            >
+
+    <Grid x:Name="gridd" >
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+                <StackLayout Grid.Column="0">
+                
+                    <usercontrols:UserInput HorizontalOptions="Start" TextBlockText="MT" x:Name="UserInputMt"  >
+
+                    </usercontrols:UserInput>
+
+                    <usercontrols:UserInput HorizontalOptions="Start" TextBlockText="V0"  x:Name="UserInputV0">
+
+                    </usercontrols:UserInput>
+
+                    <usercontrols:UserInput HorizontalOptions="Start" TextBlockText="V1"  x:Name="UserInputV1">
+
+                    </usercontrols:UserInput>
+
+                    <usercontrols:UserInput HorizontalOptions="Start" TextBlockText="V2"  x:Name="UserInputV2">
+
+                    </usercontrols:UserInput>
+
+                    <usercontrols:UserInput HorizontalOptions="Start" TextBlockText="V3"  x:Name="UserInputV3">
+
+                    </usercontrols:UserInput>
+
+                
+                    
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                    <Button     Text="Výpočet "
+                                VerticalOptions="FillAndExpand"
+                                WidthRequest="90"
+                                BorderColor="Black"
+                                BorderWidth="1"
+                                Background="Transparent"
+                                TextColor="Black"
+                                Margin="2.5,2,2,0"
+                                Clicked="Vypocet_Btn_Click">
+                                
+
+                        </Button>
+                
+                        <Button Text="Reset"
+                                WidthRequest="90"
+                                VerticalOptions="FillAndExpand"
+                                BorderColor="Black"
+                                BorderWidth="1"
+                                Background="Transparent"
+                                TextColor="Black"
+                                Margin="0,2,10,0"
+                                Clicked="Reset_Btn_Click">
+
+                        </Button>
+                
+                    </StackLayout>
+                
+                </StackLayout>
+           
+
+            
+                <StackLayout Grid.Column="1" >
+
+                    <usercontrols:Output 
+                        OutputDescriptionText="Uhol:" 
+                        UnitText="°"
+                        x:Name="DCOUhol">
+                    
+                    </usercontrols:Output>
+                
+                    <usercontrols:Output 
+                        OutputDescriptionText="Hmotnosť:" 
+                        UnitText="g"
+                        x:Name="DCOHmotnost">
+
+                    </usercontrols:Output>
+                
+                </StackLayout>
+            
+
+        </Grid>
+
+        
+
+        <Image Grid.Row="1"  Source="Resources/Images/goniometer.svg"  HorizontalOptions="Center">
+
+        </Image>
+        
+        <Line Grid.Row="1" 
+           
+            Y1="180" Y2 ="50" 
+            Stroke="#940a10" 
+            x:Name="Indicator" 
+            BindingContext="{x:Reference Name=CalculationViewXName}"
+            StrokeThickness="3" 
+            Rotation="{Binding RotationOut}"
+            HorizontalOptions="Center"
+        />
+            
+        
+
+
+
+    </Grid>
+</ContentPage>
+
+
+
