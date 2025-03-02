@@ -25,11 +25,9 @@ public partial class Output : ContentView
         get { return unitText; }
         set { unitText = value; Unit.Text = unitText; }
     }
+
     public Output()
 	{
-
-
-
 		InitializeComponent();
 	}
 }

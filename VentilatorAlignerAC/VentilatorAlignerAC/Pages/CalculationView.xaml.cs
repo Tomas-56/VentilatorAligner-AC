@@ -22,34 +22,17 @@ public partial class CalculationView : ContentPage
         }
     }
 
-  
-
-
     string MtValue;
     string V0Value;
-    string V1Value; 
+    string V1Value;
     string V2Value;
     string V3Value;
 
     bool canCalculate = false;
-    
-    
+
     public CalculationView()
 	{
-        
-        //MtValue = Convert.ToDouble( UserInputMt.UserInputEntryText);
-
-        UserInputMt = new UserInput();
-        
-        
-        
-        
-
         InitializeComponent();
-
-        
-        
-
     }
 
     private void Vypocet_Btn_Click(object sender, EventArgs e)
@@ -79,15 +62,14 @@ public partial class CalculationView : ContentPage
         }
         else { DisplayAlert("Input Error", "Nie je moûnÈ vypoËÌtaù v˝sledok, jeden alebo viac vstupov ch˝ba","OK"); }
        canCalculate = false;
-
-
     }
     private void Reset_Btn_Click(object sender, EventArgs e)
     {
-
-        
-
-
+        UserInputMt.ClearInput();
+        UserInputV0.ClearInput();
+        UserInputV1.ClearInput();
+        UserInputV2.ClearInput();
+        UserInputV3.ClearInput();
     }
 
    

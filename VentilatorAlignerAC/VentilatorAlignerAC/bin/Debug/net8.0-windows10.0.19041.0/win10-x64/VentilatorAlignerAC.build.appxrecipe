@@ -55,9 +55,6 @@
     <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\circlesvg.svg">
-      <PackagePath>circlesvg.svg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -196,173 +193,20 @@
     <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraph.scale-100.png">
-      <PackagePath>circlegraph.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goniometer.scale-100.png">
+      <PackagePath>goniometer.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraph.scale-125.png">
-      <PackagePath>circlegraph.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goniometer.scale-125.png">
+      <PackagePath>goniometer.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraph.scale-150.png">
-      <PackagePath>circlegraph.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goniometer.scale-150.png">
+      <PackagePath>goniometer.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraph.scale-200.png">
-      <PackagePath>circlegraph.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goniometer.scale-200.png">
+      <PackagePath>goniometer.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraph.scale-400.png">
-      <PackagePath>circlegraph.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraphreworked.scale-100.png">
-      <PackagePath>circlegraphreworked.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraphreworked.scale-125.png">
-      <PackagePath>circlegraphreworked.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraphreworked.scale-150.png">
-      <PackagePath>circlegraphreworked.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraphreworked.scale-200.png">
-      <PackagePath>circlegraphreworked.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circlegraphreworked.scale-400.png">
-      <PackagePath>circlegraphreworked.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_ac.ico">
-      <PackagePath>icon_ac.ico</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLargeTile.scale-100.png">
-      <PackagePath>icon_acLargeTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLargeTile.scale-125.png">
-      <PackagePath>icon_acLargeTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLargeTile.scale-150.png">
-      <PackagePath>icon_acLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLargeTile.scale-200.png">
-      <PackagePath>icon_acLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLargeTile.scale-400.png">
-      <PackagePath>icon_acLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>icon_acLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>icon_acLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>icon_acLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>icon_acLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>icon_acLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>icon_acLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>icon_acLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>icon_acLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>icon_acLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>icon_acLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.scale-100.png">
-      <PackagePath>icon_acLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.scale-125.png">
-      <PackagePath>icon_acLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.scale-150.png">
-      <PackagePath>icon_acLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.scale-200.png">
-      <PackagePath>icon_acLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.scale-400.png">
-      <PackagePath>icon_acLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.targetsize-16.png">
-      <PackagePath>icon_acLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.targetsize-24.png">
-      <PackagePath>icon_acLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.targetsize-256.png">
-      <PackagePath>icon_acLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.targetsize-32.png">
-      <PackagePath>icon_acLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acLogo.targetsize-48.png">
-      <PackagePath>icon_acLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acMediumTile.scale-100.png">
-      <PackagePath>icon_acMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acMediumTile.scale-125.png">
-      <PackagePath>icon_acMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acMediumTile.scale-150.png">
-      <PackagePath>icon_acMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acMediumTile.scale-200.png">
-      <PackagePath>icon_acMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acMediumTile.scale-400.png">
-      <PackagePath>icon_acMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acSmallTile.scale-100.png">
-      <PackagePath>icon_acSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acSmallTile.scale-125.png">
-      <PackagePath>icon_acSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acSmallTile.scale-150.png">
-      <PackagePath>icon_acSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acSmallTile.scale-200.png">
-      <PackagePath>icon_acSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acSmallTile.scale-400.png">
-      <PackagePath>icon_acSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acStoreLogo.scale-100.png">
-      <PackagePath>icon_acStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acStoreLogo.scale-125.png">
-      <PackagePath>icon_acStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acStoreLogo.scale-150.png">
-      <PackagePath>icon_acStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acStoreLogo.scale-200.png">
-      <PackagePath>icon_acStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acStoreLogo.scale-400.png">
-      <PackagePath>icon_acStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acWideTile.scale-100.png">
-      <PackagePath>icon_acWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acWideTile.scale-125.png">
-      <PackagePath>icon_acWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acWideTile.scale-150.png">
-      <PackagePath>icon_acWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acWideTile.scale-200.png">
-      <PackagePath>icon_acWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_acWideTile.scale-400.png">
-      <PackagePath>icon_acWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\goniometer.scale-400.png">
+      <PackagePath>goniometer.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\_repos\VentilatorAligner-AC\VentilatorAligner-AC\VentilatorAlignerAC\VentilatorAlignerAC\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VentilatorAlignerAC.deps.json">
       <PackagePath>VentilatorAlignerAC.deps.json</PackagePath>

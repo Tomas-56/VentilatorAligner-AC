@@ -43,7 +43,7 @@
                 
                     
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
-                    <Button     Text="Výpočet "
+                    <Button     Text="Výpočet"
                                 VerticalOptions="FillAndExpand"
                                 WidthRequest="90"
                                 BorderColor="Black"

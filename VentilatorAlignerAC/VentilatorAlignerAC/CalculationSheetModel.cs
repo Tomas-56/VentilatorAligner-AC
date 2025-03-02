@@ -34,6 +34,7 @@ namespace VentilatorAlignerAC
             double[] arrayarraySuradnicStredovKruhov = VypocetSuradnicStredovKruznic(arrayIndexov, vibracieBezZavazia_V0);
 
             double vzdialenostMedziKruznicami = VypocetVzdialenostiMedziDvomakruznicami(arrayarraySuradnicStredovKruhov);
+            
             if (VypocetCiSaKruhyPretinaju(vzdialenostMedziKruznicami, arrayVibraci))
             {
                 double bodA = VypocetBoduA(arrayVibraci, vzdialenostMedziKruznicami);
@@ -157,7 +158,9 @@ namespace VentilatorAlignerAC
         {
             double vzdialenostMedziKruznicami;
             bool vsetkyHodnotyHodnotySaRovnajuNule = true;
+            
             foreach (double element in arraySuradnicStredovKruhov) { if (element != 0) { vsetkyHodnotyHodnotySaRovnajuNule = false; } }
+            
             if (vsetkyHodnotyHodnotySaRovnajuNule == false)
             {
                 double vzdialenostMedziX = arraySuradnicStredovKruhov[2] - arraySuradnicStredovKruhov[0];

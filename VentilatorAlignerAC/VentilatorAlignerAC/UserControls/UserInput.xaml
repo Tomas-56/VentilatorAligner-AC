@@ -14,7 +14,6 @@
                    x:Name="UserInputLable" 
                    Text="{Binding TextBlockText}"
                    FontSize="20"
-                   
                    HeightRequest="45" 
                    WidthRequest="45"/>
         </Border>
@@ -28,9 +27,7 @@
                     FontSize="20"
                     IsVisible="Visible" 
                     TextChanged="UserInputEntry_TextChanged"
-                    x:Name="UserInputEntry"
-                    >
-
+                    x:Name="UserInputEntry">
             </Entry>
         </Border>
         
