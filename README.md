@@ -8,6 +8,7 @@ Uhol pridania závažia
 
 Hmotnosť vývažku potrebnú na vyváženie
 
+
 Cieľom aplikácie je zefektívniť servisné procesy a minimalizovať čas potrebný na vyvažovanie ventilátorov.
 
 
@@ -15,6 +16,7 @@ Cieľom aplikácie je zefektívniť servisné procesy a minimalizovať čas potr
 Technológie
 
 C# - programovacý jazyk
+
 .NET MAUI 8.0 - framework 
 
 
