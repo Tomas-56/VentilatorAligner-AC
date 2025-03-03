@@ -2,14 +2,9 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Popis projektu
 
-VentilatorAligner-AC je mobilná aplikácia vyvinutá v .NET MAUI 8.0 pre zrýchlenie a zjednodušenie vyvažovania radiálnych ventilátorov chladičov oleja kompresorov Atlas Copco. Aplikácia umožňuje používateľovi manuálne zadať hodnoty vibrácií (v mm/s), ktoré následne spracuje a automaticky vypočíta:
+VentilatorAligner-AC je mobilná aplikácia vyvinutá v .NET MAUI 8.0 pre zrýchlenie a zjednodušenie vyvažovania radiálnych ventilátorov chladičov oleja kompresorov Atlas Copco. 
 
-Uhol pridania závažia
-
-Hmotnosť vývažku potrebnú na vyváženie
-
-
-Cieľom aplikácie je zefektívniť servisné procesy a minimalizovať čas potrebný na vyvažovanie ventilátorov.
+Cieľom aplikácie je minimalizovať čas potrebný na vyvažovanie ventilátorov.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
