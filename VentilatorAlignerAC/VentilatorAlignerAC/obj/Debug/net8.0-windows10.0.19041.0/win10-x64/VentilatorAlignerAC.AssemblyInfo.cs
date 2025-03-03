@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VentilatorAlignerAC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c5d4a12c8f21d2f4bf1247ba9a7370d242053f2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cda6669d94c43a7785f453fad60b2ea2026d0764")]
 [assembly: System.Reflection.AssemblyProductAttribute("VentilatorAlignerAC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VentilatorAlignerAC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

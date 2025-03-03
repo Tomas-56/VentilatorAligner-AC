@@ -37,11 +37,11 @@ namespace VentilatorAlignerAC
             
             if (VypocetCiSaKruhyPretinaju(vzdialenostMedziKruznicami, arrayVibraci))
             {
-                double bodA = VypocetBoduA(arrayVibraci, vzdialenostMedziKruznicami);
+                double vzdialenostA = VypoceDlzkyA(arrayVibraci, vzdialenostMedziKruznicami);
 
-                double bodH = VypocetBoduH(arrayVibraci, bodA);
+                double vzdialenostH = VypoceDlzkyH(arrayVibraci, vzdialenostA);
 
-                arraySuradnicPriesecnikovkruhov = VypocetSuradnicPriesecnikovkruhov(arrayarraySuradnicStredovKruhov, vzdialenostMedziKruznicami, bodA, bodH);
+                arraySuradnicPriesecnikovkruhov = VypocetSuradnicPriesecnikovkruhov(arrayarraySuradnicStredovKruhov, vzdialenostMedziKruznicami, vzdialenostA, vzdialenostH);
 
 
                 this.uholPoziciaVyvazku_a = VypocetUhluAlfa(arrayIndexov, arraySuradnicPriesecnikovkruhov).uholAlfa;
@@ -186,15 +186,15 @@ namespace VentilatorAlignerAC
         //Vzdialenost Rx sa pocita s Y suradnicami , Ry sa pocita s X suradnicami
         //[Priesecnik k1X][Priesecnik k1Y][Priesecnik k2X][Priesecnik k2Y]
 
-        private static double[] VypocetSuradnicPriesecnikovkruhov(double[] arraySuradnicStredovKruhov, double vzdialenostMedziKruznicami, double bodA, double bodH)
+        private static double[] VypocetSuradnicPriesecnikovkruhov(double[] arraySuradnicStredovKruhov, double vzdialenostMedziKruznicami, double vzdialenostA, double vzdialenostH)
         {
             double[] arraySuradnicPriesecnikovkruhov = new double[4];
-            double vzdialenostRx = VypocetVzdialenostR("X", vzdialenostMedziKruznicami, bodH, arraySuradnicStredovKruhov[1], arraySuradnicStredovKruhov[3]);
-            double vzdialenostRy = VypocetVzdialenostR("Y", vzdialenostMedziKruznicami, bodH, arraySuradnicStredovKruhov[0], arraySuradnicStredovKruhov[2]);
+            double vzdialenostRx = VypocetVzdialenostR("X", vzdialenostMedziKruznicami, vzdialenostH, arraySuradnicStredovKruhov[1], arraySuradnicStredovKruhov[3]);
+            double vzdialenostRy = VypocetVzdialenostR("Y", vzdialenostMedziKruznicami, vzdialenostH, arraySuradnicStredovKruhov[0], arraySuradnicStredovKruhov[2]);
 
 
-            double bodPx = VypocetBoduP(vzdialenostMedziKruznicami, bodA, arraySuradnicStredovKruhov[0], arraySuradnicStredovKruhov[2]);
-            double bodPy = VypocetBoduP(vzdialenostMedziKruznicami, bodA, arraySuradnicStredovKruhov[1], arraySuradnicStredovKruhov[3]);
+            double bodPx = VypocetBoduP(vzdialenostMedziKruznicami, vzdialenostA, arraySuradnicStredovKruhov[0], arraySuradnicStredovKruhov[2]);
+            double bodPy = VypocetBoduP(vzdialenostMedziKruznicami, vzdialenostA, arraySuradnicStredovKruhov[1], arraySuradnicStredovKruhov[3]);
 
             arraySuradnicPriesecnikovkruhov[0] = bodPx + vzdialenostRx;
             arraySuradnicPriesecnikovkruhov[1] = bodPy + vzdialenostRy;
@@ -266,13 +266,13 @@ namespace VentilatorAlignerAC
             return hmotnostZavazia;
         }
 
-        private static double VypocetBoduP(double vzdialenostMedziKruznicami, double bodA, double suradnica1, double suradnica2)
+        private static double VypocetBoduP(double vzdialenostMedziKruznicami, double vzdialenostA, double suradnica1, double suradnica2)
         {
-            double bodP = suradnica1 + bodA * (suradnica2 - suradnica1) / vzdialenostMedziKruznicami;
+            double bodP = suradnica1 + vzdialenostA * (suradnica2 - suradnica1) / vzdialenostMedziKruznicami;
             return bodP;
         }
 
-        private static double VypocetBoduA(double[] arrayVibracii, double vzdialenostMedziKruznicami)
+        private static double VypoceDlzkyA(double[] arrayVibracii, double vzdialenostMedziKruznicami)
         {
             double bodA = (arrayVibracii[0] * arrayVibracii[0] - arrayVibracii[1] * arrayVibracii[1]
                 + vzdialenostMedziKruznicami * vzdialenostMedziKruznicami) / (2 * vzdialenostMedziKruznicami);
@@ -280,25 +280,27 @@ namespace VentilatorAlignerAC
             return bodA;
         }
 
-        private static double VypocetBoduH(double[] arrayVibracii, double bodA)
+        private static double VypoceDlzkyH(double[] arrayVibracii, double vzdialenostA)
         {
-            double bodH = Math.Sqrt(arrayVibracii[0] * arrayVibracii[0] - bodA * bodA);
+            double bodH = Math.Sqrt(arrayVibracii[0] * arrayVibracii[0] - vzdialenostA * vzdialenostA);
             return bodH;
         }
 
-        private static double VypocetVzdialenostR(string vypocetPreX, double vzdialenostMedziKruznicami, double bodH, double suradnicaKruznice1, double suradnicaKruznice2)
+        private static double VypocetVzdialenostR(string vypocetPreX, double vzdialenostMedziKruznicami, double vzdialenostH, double suradnicaKruznice1, double suradnicaKruznice2)
         {
             double vzdialenostR;
 
             if (vypocetPreX.Equals("X"))
             {
-                vzdialenostR = -(suradnicaKruznice2 - suradnicaKruznice1) * (bodH / vzdialenostMedziKruznicami);
+                vzdialenostR = -(suradnicaKruznice2 - suradnicaKruznice1) * (vzdialenostH / vzdialenostMedziKruznicami);
             }
             else
             {
-                vzdialenostR = (suradnicaKruznice2 - suradnicaKruznice1) * (bodH / vzdialenostMedziKruznicami);
+                vzdialenostR = (suradnicaKruznice2 - suradnicaKruznice1) * (vzdialenostH / vzdialenostMedziKruznicami);
             }
             return vzdialenostR;
         }
     }
+
+    //
 }

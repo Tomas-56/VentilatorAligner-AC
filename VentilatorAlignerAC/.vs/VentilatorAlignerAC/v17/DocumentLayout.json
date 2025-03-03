@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|solutionrelative:ventilatoralignerac\\calculationsheetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|c:\\_repos\\ventilatoraligner-ac\\ventilatoraligner-ac\\ventilatoralignerac\\ventilatoralignerac\\pages\\calculationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|solutionrelative:ventilatoralignerac\\pages\\calculationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|c:\\_repos\\ventilatoraligner-ac\\ventilatoraligner-ac\\ventilatoralignerac\\ventilatoralignerac\\pages\\calculationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|solutionrelative:ventilatoralignerac\\pages\\calculationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|c:\\_repos\\ventilatoraligner-ac\\ventilatoraligner-ac\\ventilatoralignerac\\ventilatoralignerac\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E4EBDAE6-DB1C-4C28-ACDA-F5E4D5C908A4}|VentilatorAlignerAC\\VentilatorAlignerAC.csproj|solutionrelative:ventilatoralignerac\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -62,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +78,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CalculationView.xaml",
+              "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Pages\\CalculationView.xaml",
+              "RelativeDocumentMoniker": "VentilatorAlignerAC\\Pages\\CalculationView.xaml",
+              "ToolTip": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Pages\\CalculationView.xaml",
+              "RelativeToolTip": "VentilatorAlignerAC\\Pages\\CalculationView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-03T17:04:12.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculationView.xaml.cs",
+              "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Pages\\CalculationView.xaml.cs",
+              "RelativeDocumentMoniker": "VentilatorAlignerAC\\Pages\\CalculationView.xaml.cs",
+              "ToolTip": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Pages\\CalculationView.xaml.cs",
+              "RelativeToolTip": "VentilatorAlignerAC\\Pages\\CalculationView.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:02:51.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserInput.xaml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\UserControls\\UserInput.xaml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\UserControls\\UserInput.xaml",
@@ -88,14 +120,14 @@
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\CalculationSheetModel.cs",
               "ToolTip": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\CalculationSheetModel.cs",
               "RelativeToolTip": "VentilatorAlignerAC\\CalculationSheetModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwCoBAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T18:27:30.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserInput.xaml.cs",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\UserControls\\UserInput.xaml.cs",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\UserControls\\UserInput.xaml.cs",
@@ -107,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "colors.xml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Platforms\\Android\\Resources\\values\\colors.xml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Platforms\\Android\\Resources\\values\\colors.xml",
@@ -119,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Output.xaml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\UserControls\\Output.xaml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\UserControls\\Output.xaml",
@@ -131,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "appicon.svg",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Resources\\AppIcon\\appicon.svg",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Resources\\AppIcon\\appicon.svg",
@@ -143,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appiconfg.svg",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Resources\\AppIcon\\appiconfg.svg",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Resources\\AppIcon\\appiconfg.svg",
@@ -155,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\App.xaml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\App.xaml",
@@ -167,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Colors.xaml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Resources\\Styles\\Colors.xaml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Resources\\Styles\\Colors.xaml",
@@ -179,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Output.xaml.cs",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\UserControls\\Output.xaml.cs",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\UserControls\\Output.xaml.cs",
@@ -191,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\MauiProgram.cs",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\MauiProgram.cs",
@@ -203,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Platforms\\Android\\AndroidManifest.xml",
@@ -214,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\_repos\\VentilatorAligner-AC\\VentilatorAligner-AC\\VentilatorAlignerAC\\VentilatorAlignerAC\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "VentilatorAlignerAC\\Platforms\\Android\\MainActivity.cs",

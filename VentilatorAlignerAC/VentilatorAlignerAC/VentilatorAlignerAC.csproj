@@ -83,4 +83,10 @@
 	  <Folder Include="Resources\Fonts\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Pages\CalculationView.xaml.cs">
+	    <DependentUpon>CalculationView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>
